@@ -82,7 +82,7 @@
     [self.audioController removeOutputReceiver:recorder];
     
     //Removing the AudioUnit filter from AEAudioController
-    [self.audioController addFilter:pitch];
+    [self.audioController removeFilter:pitch];
 
     
     //Deleting recorder
