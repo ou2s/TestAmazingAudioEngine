@@ -17,6 +17,5 @@
 - (IBAction)startRecording:(id)sender;
 - (IBAction)stopRecording:(id)sender;
 - (IBAction)playFile:(id)sender;
-- (id)initWithAudioController:(AEAudioController*)audioController;
 @end
 

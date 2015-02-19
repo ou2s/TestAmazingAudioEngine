@@ -20,8 +20,6 @@
     self.audioController = [[AEAudioController alloc] initWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES];
     _audioController.preferredBufferDuration = 0.005;
     _audioController.useMeasurementMode = YES;
-
-    
     return YES;
 }
 
